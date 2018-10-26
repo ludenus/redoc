@@ -3,7 +3,7 @@ Generate markdown doc from Gherkin *.feature files
 
 ## Why
 
-The problem with test documentation is that it is either non-existing or outdated.
+The problem with test documentation is that it is either **non-existing** or **outdated**.
 
 We can solve the problem by:
 
@@ -16,7 +16,7 @@ We can solve the problem by:
 1. Gherkin syntax is simple and human readable
 2. Markdown format is easy to publish
 3. *.feature files become single source of truth for both documentation and test automation.
-
+4. Can be easily integrated into any CI/CD process.
 
 ## Prerequisites
 Kotlin compiler installed (e.g via [sdkman](https://sdkman.io/))
@@ -32,8 +32,12 @@ Kotlin compiler installed (e.g via [sdkman](https://sdkman.io/))
   ```
 
 * Make sure Features section of `./doc/testplan-ui.md`is updated
+
 * Commit and push changes to your git repository
-* Check updated `testplan-ui.md` on Github Web UI
+
+* Check updated [Features](https://github.com/ludenus/redoc/blob/master/doc/testplan-ui.md#features) section on testplan-ui.md Github page.
+
+* You should be able to navigate exact lines of `*.feature` files by clicking **Scenarios** on [testplan-ui.md](https://github.com/ludenus/redoc/blob/master/doc/testplan-ui.md#features) page.
 
 
 
